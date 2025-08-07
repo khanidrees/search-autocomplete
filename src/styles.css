@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.search-container {
+  position: relative;
+  width: 400px;
+  margin: auto;
+}
+
+.items-container {
+  position: absolute;
+  left: 80px;
+  background-color: lightgray;
+  width: 240px;
+  max-height: 200px;
+  overflow: auto;
+}
+.item {
+  border-bottom: 2px solid;
+  cursor: pointer;
+}
